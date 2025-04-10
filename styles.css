@@ -1,0 +1,100 @@
+/* Import the Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply the Inter font to everything on the page */
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Default weight, you can change it as needed */
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Adjust line height for readability */
+  background-color: #e0f0ff !important;
+}
+
+/* Optional: You can also apply the Inter font to headings and other elements */
+h1, h2, h3, h4, h5, h6, p, a, span, li {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Default weight for all text, you can adjust specific weights for headings */
+  font-style: normal;
+}
+
+.header-menu-bg {
+  background-color: #00AFF0 !important; /* OnlyFans blue */
+}
+
+.header-menu-nav-item-content {
+  color: white !important; /* White text color */
+}
+
+
+.just-for {
+  padding-top: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.just-for1 {
+  display: flex;
+  flex-direction: row;  /* Align items horizontally */
+  justify-content: center;  /* Center the items horizontally */
+  align-items: center;  /* Vertically center items */
+}
+
+.text-with-image {
+  display: flex;
+  align-items: center; /* Aligns image and text vertically */
+  justify-content: flex-start; /* Ensures the image and text are aligned at the start */
+  gap: 20px; /* Adds space between the image and the text */
+  margin-top: 20px;
+}
+
+.text-with-image img {
+  width: 50px; /* Adjust the size of the image */
+  height: 50px; /* Adjust the size of the image */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+.text-with-image h4 {
+  margin: 0;
+  text-align: left; /* Align text to the left of the container */
+}
+
+
+.fe-673a0edcfe49fc0099191b5a {
+  background-color: #e0f0ff !important; /* light blue example */
+}
+
+.page-section {
+  background-color: #e0f0ff !important; /* Or whatever bluish color you want */
+}
+
+#yui_3_17_2_1_1744060108965_78 {
+  background-color: #e0f0ff !important;
+}
+
+.page-section[data-section-id="67abd11552a92632422f91de"] .content-wrapper {
+  background-color: #7abfff !important;
+  color: white;
+}
+
+.user-items-list-simple .list-item {
+  background-color: #7abfff !important; /* Change this to your desired color */
+  border-radius: 5px;
+}
+
+.fe-673a0edcfe49fc0099191b3e {
+  background-color: #e0f0ff !important; /* or any blue shade you like */
+}
+
+.section-background {
+  background-color: #ffffff !important; /* or any blue shade you like */
+}
+
+.foot-ft {
+  margin-top: 30px;
+}
